@@ -1,0 +1,14 @@
+.page {
+    background-color: #2A2C2F;
+}
+.language-selector{
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+.language-selector_ru{
+    text-decoration: dashed;
+}
+.language-selector_en{
+    text-decoration: none;
+}
