@@ -1,4 +1,4 @@
-.header__language-selector-link_active {
+.header__language-selector-link-active {
     text-decoration: underline;
     padding-right: 18px;
     font-family: 'Inter', Arial, sans-serif;
@@ -7,6 +7,6 @@
     font-size: 24px;
     color: white;
 }
-.header__language-selector-link_active:hover{
+.header__language-selector-link-active:hover{
     opacity: 0.8;
 }
