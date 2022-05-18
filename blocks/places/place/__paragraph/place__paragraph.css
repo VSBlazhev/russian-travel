@@ -15,7 +15,7 @@
         }
     }
 
-    @media screen and (max-width: 321px){
+    @media screen and (max-width: 580px){
     .place__pargraph{
         padding-left: 16px;
         padding-right: 16px;

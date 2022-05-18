@@ -9,10 +9,10 @@
     grid-column: 1;
     max-width: 560px;
     z-index: 3;
-    margin:auto
+    margin:auto;
 }
 
-@media screen and (max-width:321px) {
+@media screen and (max-width:500px) {
     .cover__text-container{
         max-width: 288px;
     }
