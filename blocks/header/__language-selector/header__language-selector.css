@@ -1,0 +1,28 @@
+.header__language-selector li {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    color: white;
+}
+.header__language-selector{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+.header__language-selector li:first-of-type{
+    text-decoration: underline ;
+    padding-right: 18px;
+}
+
+@media screen and (max-width: 340px) {
+    .header__language-selector{
+        font-weight: 400;
+font-size: 18px;
+line-height: 111%;
+/* identical to box height, or 111% */
+    }
+}

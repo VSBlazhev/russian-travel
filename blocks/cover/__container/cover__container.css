@@ -1,0 +1,11 @@
+.cover__container{
+    display: grid;
+    margin: auto;
+    max-width: 1184px;
+}
+
+@media screen and (max-width:1025px) {
+    .cover__container{
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+.cover__link{
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 2;
+}
+
+
+.cover__link:hover {
+opacity: 0.8;
+background-color: #2A2C2F;
+}
+
