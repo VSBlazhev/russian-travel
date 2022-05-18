@@ -14,7 +14,7 @@
     text-decoration: none;
 }
 .header__language-selector li:first-of-type{
-    text-decoration: underline ;
+    text-decoration: underline;
     padding-right: 18px;
 }
 
