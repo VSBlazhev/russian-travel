@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/index.css" />
-    <title>Document</title>
+    <title>Путешествия по России</title>
   </head>
   <body>
     <div class="page">
@@ -14,8 +14,8 @@
         <div class="header__container">
         <img src="./images/Header__logo.svg" alt="Логотип" class="header__logo" />
         <ul class="header__language-selector">
-          <li><a href="" class="header__language-selector">Ru</a></li>
-          <li><a href="" class="header__language-selector">En</a></li>
+          <li><a href="" class="header__language-selector-link_active">Ru</a></li>
+          <li><a href="" class="header__language-selector-link">En</a></li>
         </ul>
       </div>
         </section>
@@ -33,7 +33,7 @@
       </section>
       <section class="intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
-        <article class="intro__text">
+        <p class="intro__text">
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
           36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома,
           не видели? На самом деле, Россия — это целая вселенная с ласковым
@@ -43,7 +43,7 @@
           мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и
           проехала 20 тысяч километров по родной стране. Мы выбрали и описали
           некоторые интересные места, достойные вашего отпуска.
-        </article>
+        </p>
         <ul class="intro__list">
           <li><span class="intro__list-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
           <li><span class="intro__list-accent">Часовых поясов</span> 11</li>
@@ -52,93 +52,92 @@
           <li><span class="intro__list-accent">Аэропортов</span> 241</li>
         </ul>
       </section>
-      <section class="photo-grid">
-        <div class="photo-grid__container">
-        <figure class="photo-grid__item">
+      <section class="photo-grid">  
+        
           <img
             src="./images/photo-grid/field__item.png"
             alt="Поле"
             class="photo-grid__image"
           />
-        </figure>
-        <figure class="photo-grid__item">
+        
+       
           <img
             src="./images/photo-grid/forest__item.png"
             alt="Лес"
             class="photo-grid__image"
           />
-        </figure>
-        <figure class="photo-grid__item">
+        
+        
           <img
             src="./images/photo-grid/ice__item.png"
             alt="Лёд"
             class="photo-grid__image"
           />
-        </figure>
-        <figure class="photo-grid__item">
+        
+        
           <img
             src="./images/photo-grid/rocks2__item.png"
             alt="Горы"
             class="photo-grid__image"
           />
-        </figure>
-        <figure class="photo-grid__item">
+        
+        
           <img
             src="./images/photo-grid/rocks3__item.png"
             alt="Горы"
             class="photo-grid__image"
           />
-        </figure>
-        <figure class="photo-grid__item">
+        
+        
           <img
             src="./images/photo-grid/rocks4__item.png"
             alt="Горы"
             class="photo-grid__image"
           />
-        </figure>
-        <figure class="photo-grid__item">
+       
+        
           <img
             src="./images/photo-grid/rocks5__item.png"
             alt="Горы"
             class="photo-grid__image"
           />
-        </figure>
-        <figure class="photo-grid__item">
+        
+        
           <img
             src="./images/photo-grid/rocks6__item.png"
             alt="Горы"
             class="photo-grid__image"
           />
-        </figure>
-        <figure class="photo-grid__item">
+        
+        
           <img
             src="./images/photo-grid/train__item.png"
             alt="Поезд"
             class="photo-grid__image"
           />
-        </figure>
-        <figure class="photo-grid__item">
+        
+        
           <img
             src="./images/photo-grid/rocks__item.png"
             alt="Горы"
             class="photo-grid__image"
           />
-        </figure>
-        <figure class="photo-grid__item">
+        
+        
           <img
             src="./images/photo-grid/shore__item.png"
             alt="Побережъе"
             class="photo-grid__image"
           />
-        </figure>
-        <figure class="photo-grid__item">
+        
+        
           <img
             src="./images/photo-grid/sign__item.png"
             alt="Знак"
             class="photo-grid__image"
           />
-        </figure>
-      </div>
+        
+
       </section>
       <section class="places">
         <div class="place">
@@ -279,13 +278,14 @@
       </section>
       <section class="cover">
         <div class="cover__container">
-          <div class="cover__text-container">
+          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link_text">
+
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от 
             столицы до Байкала на электричках.</h3>
-          </div>
-          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
-          <img class="cover__overlay" alt="Прозрачность" src="./images/cover__overlay.png">
+            </a>
+            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
+          <div class="cover__overlay" ></div>
         </a>
           <img class="cover__image" alt="Фотграфия ЖД путей" src="./images/cover__background.png">
         
@@ -294,6 +294,7 @@
       </section>
       <section class="footer">
         <div class="footer__container">
+        <nav >
           <ul class="footer__links">
               <li ><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
               <li ><a class="footer__link" href="https://yandex.ru/pogoda">Карты</a></li>
@@ -301,8 +302,10 @@
               <li ><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
               <li ><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
           </ul>
-          <p class="footer__copyright">© 2022. Вячеслав Блажев</p>
-        </div>
+          
+        </nav>
+        <p class="footer__copyright">© 2022. Вячеслав Блажев</p>
+      </div>
       </section>
     </div>
   </div>

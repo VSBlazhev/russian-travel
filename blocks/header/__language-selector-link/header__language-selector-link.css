@@ -1,0 +1,12 @@
+.header__language-selector-link {
+    font-family: 'Inter', Arial, sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.header__language-selector-link:hover{
+    opacity: 0.8;
+}

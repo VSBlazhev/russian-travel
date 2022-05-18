@@ -7,9 +7,7 @@
 
 @media  screen and (max-width:1025px) {
    .lead__image-container{
-       max-width: 928px;
-       margin-left: auto;
-    margin-right: auto;
+    max-width: 928px;
     margin-top: 56px;
    } 
 }

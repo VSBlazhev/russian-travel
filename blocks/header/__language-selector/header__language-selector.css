@@ -5,7 +5,16 @@
     color: white;
 }
 .header__language-selector{
-    
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+.header__language-selector-link_active {
+    text-decoration: underline;
+    padding-right: 18px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -13,16 +22,11 @@
     color: white;
     text-decoration: none;
 }
-.header__language-selector li:first-of-type{
-    text-decoration: underline;
-    padding-right: 18px;
-}
 
 @media screen and (max-width: 340px) {
     .header__language-selector{
-        font-weight: 400;
-font-size: 18px;
-line-height: 111%;
+    font-size: 18px;
+    line-height: 111%;
 /* identical to box height, or 111% */
     }
 }

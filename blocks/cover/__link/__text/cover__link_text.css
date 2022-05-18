@@ -1,0 +1,14 @@
+.cover__link_text{
+    display: flex;
+    max-width: 560px;
+    max-height: 250px;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 3;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
