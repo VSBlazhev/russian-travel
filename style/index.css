@@ -8,7 +8,8 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__language-selector/header__language-selector.css);
 @import url(../blocks/header/__language-selector-link/header__language-selector-link.css);
-@import url(../blocks/header/__active/header__language-selector-link-active.css);
+@import url(../blocks/header/__language-selector-link/__active/header__language-selector-link_active.css);
+@import url(../blocks/header/__language-selector-item/header__language-selector-item.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
