@@ -1,3 +1,7 @@
 .header__language-selector-item{
     display: inline;
+    padding-right: 18px;
+}
+.header__language-selector-item:last-child{
+    padding-right: 0;
 }
