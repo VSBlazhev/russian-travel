@@ -4,8 +4,7 @@
     font-weight: 400;
     font-size: 24px;
     color: white;
-    text-decoration: none;
-    display: inline;
+    text-decoration: none;   
 }
 
 .header__language-selector-link:hover{
